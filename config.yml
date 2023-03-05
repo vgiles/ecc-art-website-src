@@ -1,0 +1,66 @@
+theme: charlolamode
+
+menu:
+    main:
+        - name: Darkroom
+          url: https://ec-creates.darkroom.com
+          weight: 30
+        - name: Instagram
+          url: https://www.instagram.com/emilie_clare_creates
+          weight: 30
+
+     # - name: Categories
+        #   url: /categories/
+        #   weight: 10
+        # - name: new Tab
+        #   url: /newtab/
+        #   weight: defines order of tabs
+   
+
+params:
+    author: Emilie Clare
+
+
+    defaultTheme: auto
+    disableThemeToggle: false
+    ShowShareButtons: false
+    ShowReadingTime: false
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    ShowToc: false
+
+    profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        title: Emilie Clare Creates 
+        description: |
+
+          Hello, I'm Emilie. A speech language pathologist and creative. 
+        imageUrl: "/images/profile.jpeg"
+        imageTitle: a me
+        imageWidth: 120
+        imageHeight: 140
+        buttons:
+            - name: Darkroom Online Store
+              url: https://ec-creates.darkroom.com
+            - name: Instagram
+              url: https://www.instagram.com/emilie_clare_creates/ 
+    mainSections:
+      - articles
+
+    socialIcons:
+        # - name: buymeacoffee
+        #   url: "https://ko-fi.com/heycharlola"
+        # - name: github
+        #   url: "https://github.com/charlola"
+        # - name: linkedin
+        #   url: "https://www.linkedin.com/in/heycharlola/"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
