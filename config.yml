@@ -43,7 +43,7 @@ params:
         imageWidth: 120
         imageHeight: 140
         buttons:
-            - name: Darkroom Online Store
+            - name: Buy Prints Online
               url: https://ec-creates.darkroom.com
             - name: Instagram
               url: https://www.instagram.com/emilie_clare_creates/ 
